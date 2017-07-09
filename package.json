@@ -1,0 +1,18 @@
+{
+  "name": "something",
+  "dependencies": {
+    "browserify": "~> 10.2.4",
+    "browserify-incremental": "^3.0.1",
+    "material-ui": "0.13.1",
+    "react": "*",
+    "react-addons-create-fragment": "^15.4.2",
+    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2",
+    "react-addons-update": "^15.4.2",
+    "react-dom": "*",
+    "react-modal": "^2.2.1",
+    "react-popout": "^0.6.0",
+    "react-popup": "^0.8.0",
+    "react-tap-event-plugin": "*"
+  }
+}

@@ -1,0 +1,546 @@
+Started GET "/" for 127.0.0.1 at 2017-07-04 22:07:07 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.4/lib/rails/templates/rails/welcome/index.html.erb (5.7ms)
+Completed 200 OK in 30ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 22:24:24 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/railties-5.0.4/lib/rails/templates/rails/welcome/index.html.erb (4.5ms)
+Completed 200 OK in 23ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 22:26:48 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 861ms (Views: 850.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 23:04:21 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 993ms (Views: 979.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-04 23:06:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 405ms (Views: 394.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-07 19:51:25 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2091ms (Views: 2080.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-07 19:53:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-07 20:56:24 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 1340ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (5:6)
+  3 |     return (
+  4 |       <h1>Hello World</h1>
+> 5 |       <RaisedButton label="HelloWorld" />
+    |       ^
+  6 |     )
+  7 |   }
+  8 | }):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3179020697038268154_70249029620080'
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (78.8ms)
+Started GET "/" for 127.0.0.1 at 2017-07-07 20:57:38 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 519ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (5:6)
+  3 |     return (
+  4 |       <h1>Hello World</h1>
+> 5 |       <mui.RaisedButton label="HelloWorld" />
+    |       ^
+  6 |     )
+  7 |   }
+  8 | }):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3179020697038268154_70249054185040'
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (70.6ms)
+Started GET "/" for 127.0.0.1 at 2017-07-07 20:59:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 501ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (5:6)
+  3 |     return (
+  4 |       <h1>Hello World</h1>
+> 5 |       <RaisedButton label="HelloWorld" />
+    |       ^
+  6 |     )
+  7 |   }
+  8 | }):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3179020697038268154_70249067091220'
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.3ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.5ms)
+Started GET "/" for 127.0.0.1 at 2017-07-07 21:00:53 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 516ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (5:6)
+  3 |     return (
+  4 |       <h1>Hello World</h1>
+> 5 |       <div>
+    |       ^
+  6 |       <RaisedButton label="HelloWorld" />
+  7 |       </div>
+  8 |     )):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3179020697038268154_70249068858700'
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (77.0ms)
+Started GET "/" for 127.0.0.1 at 2017-07-07 21:02:16 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 527ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (5:6)
+  3 |     return (
+  4 |       <h1>Hello World</h1>
+> 5 |       </br>
+    |       ^
+  6 |       <RaisedButton label="HelloWorld" />
+  7 |     )
+  8 |   }):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3179020697038268154_70249061842680'
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (7.4ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (79.0ms)
+Started GET "/" for 127.0.0.1 at 2017-07-07 21:03:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 527ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Adjacent JSX elements must be wrapped in an enclosing tag (5:6)
+  3 |     return (
+  4 |       <h1>Hello World</h1>
+> 5 |       </br>
+    |       ^
+  6 |       <div>
+  7 |       <RaisedButton label="HelloWorld" />
+  8 |       </div>):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3179020697038268154_70249060553160'
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (75.2ms)
+Started GET "/" for 127.0.0.1 at 2017-07-07 21:07:44 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 555ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Unexpected token (4:7)
+  2 |   render() {
+  3 |     return (
+> 4 |       </br>
+    |        ^
+  5 |       <div>
+  6 |       <RaisedButton label="HelloWorld" />
+  7 |       </div>):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3179020697038268154_70249066611220'
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (72.3ms)
+Started GET "/" for 127.0.0.1 at 2017-07-07 21:10:30 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Browserify: /Users/ph03n1x/Documents/repo/HelpingHandsTest/node_modules/.bin/browserifyinc --list --cachefile=/Users/ph03n1x/Documents/repo/HelpingHandsTest/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/ph03n1x/Documents/repo/HelpingHandsTest/tmp/cache/browserify-rails/output20170707-55007-u7cvet" -
+Browserify: /Users/ph03n1x/Documents/repo/HelpingHandsTest/node_modules/.bin/browserifyinc  --cachefile=/Users/ph03n1x/Documents/repo/HelpingHandsTest/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/ph03n1x/Documents/repo/HelpingHandsTest/tmp/cache/browserify-rails/output20170707-55007-2fvj01" -
+Completed 500 Internal Server Error in 3591ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Unexpected token (4:7)
+  2 |   render() {
+  3 |     return (
+> 4 |       </br>
+    |        ^
+  5 |       <div>
+  6 |       <RaisedButton label="HelloWorld" />
+  7 |       </div>):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3179020697038268154_70249052452920'
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.3ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (73.5ms)
+Started GET "/" for 127.0.0.1 at 2017-07-07 21:11:05 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 1310ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Unexpected token (4:7)
+  2 |   render() {
+  3 |     return (
+> 4 |       </br>
+    |        ^
+  5 |       <div>
+  6 |       <RaisedButton label="HelloWorld" />
+  7 |       </div>):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2539346678615894189_70263679773860'
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ph03n1x/.rbenv/versions/2.3.0/lib/ruby/gems/2.3.0/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.2ms)
+Started GET "/" for 127.0.0.1 at 2017-07-07 21:14:00 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.9ms)
+Browserify: /Users/ph03n1x/Documents/repo/HelpingHandsTest/node_modules/.bin/browserifyinc --list --cachefile=/Users/ph03n1x/Documents/repo/HelpingHandsTest/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/ph03n1x/Documents/repo/HelpingHandsTest/tmp/cache/browserify-rails/output20170707-55706-gl0jzj" -
+Browserify: /Users/ph03n1x/Documents/repo/HelpingHandsTest/node_modules/.bin/browserifyinc  --cachefile=/Users/ph03n1x/Documents/repo/HelpingHandsTest/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/ph03n1x/Documents/repo/HelpingHandsTest/tmp/cache/browserify-rails/output20170707-55706-ezoi8e" -
+Completed 200 OK in 2861ms (Views: 2851.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:20:42 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (10.7ms)
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc --list --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45012-35zhzj" -
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc  --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45012-ufkrya" -
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc --list --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45012-172962p" -
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc  --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45012-jv7ze3" -
+Completed 200 OK in 5590ms (Views: 5579.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:21:53 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1104ms (Views: 1095.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:24:53 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 639ms (Views: 629.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:26:14 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc --list --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45056-1h9ao9f" -
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc  --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45056-1d2d77x" -
+Completed 200 OK in 3034ms (Views: 3031.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:31:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 1385ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (SyntaxError: unknown: Unexpected token (2:8)
+  1 | class HelloWorld extends React.Component {
+> 2 |   popup = function() {
+    |         ^
+  3 |     Popup.create({
+  4 |       className: 'prompt'
+  5 |     });):
+    4:     <title>HelpingHandsTest</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3941896803008470539_70184254902720'
+  Rendering /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (15.5ms)
+  Rendering /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendering /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (76.9ms)
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:36:52 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1459ms (Views: 1455.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:40:13 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1041ms (Views: 1037.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:41:57 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1091ms (Views: 1089.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/hey" for 127.0.0.1 at 2017-07-09 02:42:00 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/hey"):
+  
+actionpack (5.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.4) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.4) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  Rendering /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered collection of /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb [2 times] (9.5ms)
+  Rendered /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (17.5ms)
+  Rendering /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/hasanjafri/.gem/ruby/2.4.1/gems/actionpack-5.0.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (105.4ms)
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:48:24 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 2118ms (Views: 2107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 02:56:46 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (7.4ms)
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc --list --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45267-f1rgjk" -
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc  --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45267-1kpflbu" -
+Completed 200 OK in 3429ms (Views: 3418.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 03:02:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.6ms)
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc --list --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45318-1cr4vma" -
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc  --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45318-kodjws" -
+Completed 200 OK in 3654ms (Views: 3644.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 03:06:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.3ms)
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc --list --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45366-2c3py4" -
+Browserify: /Users/hasanjafri/Desktop/HelpingHandsTest-master/node_modules/.bin/browserifyinc  --cachefile=/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/browserifyinc-cache.json -o "/Users/hasanjafri/Desktop/HelpingHandsTest-master/tmp/cache/browserify-rails/output20170709-45366-134qnie" -
+Completed 200 OK in 3633ms (Views: 3623.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 03:08:04 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1033ms (Views: 1022.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 03:09:02 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1076ms (Views: 1075.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 03:09:31 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1024ms (Views: 1019.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-07-09 03:11:08 -0400
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 905ms (Views: 894.2ms | ActiveRecord: 0.0ms)
+
+
